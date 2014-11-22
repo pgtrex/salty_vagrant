@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :salt do |salt|
 
     ## Minion config is set to ``file_client: local`` for masterless
-    salt.minion_config = "config/minion"
+    salt.minion_config = "config/srv/minion"
 
     ## Installs our example formula in "salt/roots/salt"
     salt.run_highstate = true

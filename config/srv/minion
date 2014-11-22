@@ -17,6 +17,7 @@ file_roots:
     - /srv/salt/
     - /srv/salt/apache-formula
     - /srv/salt/mysql-formula
+    - /srv/salt/php-formula
 
 # The Salt pillar is searched for locally if file_client is set to local. If
 # this is the case, and pillar data is defined, then the pillar_roots need to
